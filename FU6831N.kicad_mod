@@ -1,0 +1,118 @@
+(module "FU6831N" (layer F.Cu) (tedit 620D599A)
+  (descr "FU6831N, 8-Bit FLASH 8051 & ME 24MHz 5V ~ 30V QFN-32 Fortior Technol RoHS")
+  (tags "8-Bit FLASH 8051 & ME 24MHz 5V ~ 30V QFN-32 Fortior Technol RoHS, Embedded Processors & Controllers, Fortior Technol")
+  (fp_text reference REF** (at 0 -4.150013) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value FU6831N (at 0 4.150013) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -1.999886 2) (end -1.969914 2) (layer F.SilkS) (width 0.059995))
+  (fp_circle (center -1.523889 2.286005) (end -1.423813 2.286005) (layer F.Fab) (width 0.2))
+  (fp_circle (center -1.999886 2.499873) (end -1.899809 2.499873) (layer F.SilkS) (width 0.2))
+  (fp_line (start -2.15 -1.724994) (end -2.15 -2.150013) (layer F.SilkS) (width 0.149987))
+  (fp_line (start -2.15 -2.150013) (end -1.725006 -2.150013) (layer F.SilkS) (width 0.149987))
+  (fp_line (start 2.15 1.724994) (end 2.15 2.150013) (layer F.SilkS) (width 0.149987))
+  (fp_line (start 2.15 2.150013) (end 1.724981 2.150013) (layer F.SilkS) (width 0.149987))
+  (fp_line (start 2.15 -1.724994) (end 2.15 -2.150013) (layer F.SilkS) (width 0.149987))
+  (fp_line (start 2.15 -2.150013) (end 1.724981 -2.150013) (layer F.SilkS) (width 0.149987))
+  (fp_line (start -2.15 2.150013) (end -2.15 1.724994) (layer F.SilkS) (width 0.149987))
+  (fp_line (start 1.724981 2.150013) (end 1.667729 2.150013) (layer F.SilkS) (width 0.127))
+  (fp_line (start -1.667653 2.150013) (end -2.15 2.150013) (layer F.SilkS) (width 0.127))
+  (pad 2 smd custom (at -0.999886 1.899924) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.1 -0.3) (xy 0.1 -0.3) (xy 0.1 0.3) (xy -0.1 0.3)) (width 0))
+    ))
+  (pad 3 smd rect (at -0.599835 1.899924) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste))
+  (pad 4 smd rect (at -0.200038 1.899924) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste))
+  (pad 5 smd rect (at 0.200013 1.899924) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste))
+  (pad 6 smd rect (at 0.600064 1.899924) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste))
+  (pad 7 smd rect (at 1.000114 1.899924) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste))
+  (pad 10 smd rect (at 1.900038 1) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 11 smd rect (at 1.900038 0.599949) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 12 smd rect (at 1.900038 0.199898) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 13 smd rect (at 1.900038 -0.200152) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 14 smd rect (at 1.900038 -0.600203) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 15 smd rect (at 1.900038 -1) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 18 smd custom (at 1.000114 -1.900178) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.1 -0.3) (xy 0.1 -0.3) (xy 0.1 0.3) (xy -0.1 0.3)) (width 0))
+    ))
+  (pad 19 smd rect (at 0.600064 -1.900178) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste))
+  (pad 20 smd rect (at 0.200013 -1.900178) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste))
+  (pad 21 smd rect (at -0.200038 -1.900178) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste))
+  (pad 22 smd rect (at -0.599835 -1.900178) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste))
+  (pad 23 smd rect (at -0.999886 -1.900178) (size 0.2 0.6) (layers F.Cu F.Mask F.Paste))
+  (pad 26 smd custom (at -1.899809 -1) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.299924 -0.100076) (xy 0.300076 -0.100076) (xy 0.300076 0.099924) (xy -0.299924 0.099924)) (width 0))
+    ))
+  (pad 27 smd rect (at -1.899809 -0.600203) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 28 smd rect (at -1.899809 -0.200152) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 29 smd rect (at -1.899809 0.199898) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 30 smd rect (at -1.899809 0.599949) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 31 smd rect (at -1.899809 1) (size 0.6 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 33 smd rect (at 0.000114 0 90) (size 2.641605 2.641605) (layers F.Cu F.Mask F.Paste))
+  (pad 24 smd custom (at -1.399936 -1.85014) (size 0.199898 0.599949) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.1 0.049936) (xy -0.1 -0.350089) (xy 0.1 -0.350089) (xy 0.1 0.249936)) (width 0))
+    ))
+  (pad 8 smd custom (at 1.400165 1.849886) (size 0.199898 0.599949) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.1 -0.049936) (xy 0.1 0.350089) (xy -0.1 0.350089) (xy -0.1 -0.249936)) (width 0))
+    ))
+  (pad 9 smd custom (at 1.799962 1.400051) (size 0.599949 0.199898) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.199898 -0.1) (xy 0.400102 -0.1) (xy 0.400102 0.1) (xy 0.000076 0.1)) (width 0))
+    ))
+  (pad 16 smd custom (at 1.799962 -1.400051) (size 0.599949 0.199898) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.000102 -0.1) (xy 0.400102 -0.1) (xy 0.400102 0.1) (xy -0.199898 0.1)) (width 0))
+    ))
+  (pad 17 smd custom (at 1.400419 -1.85014) (size 0.199898 0.599949) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.1 0.249936) (xy -0.1 -0.350064) (xy 0.1 -0.350064) (xy 0.1 0.049962)) (width 0))
+    ))
+  (pad 32 smd custom (at -1.799733 1.399797) (size 0.549911 0.199898) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.000102 0.1) (xy -0.350114 0.1) (xy -0.350114 -0.1) (xy 0.199898 -0.1)) (width 0))
+    ))
+  (pad 1 smd custom (at -1.400191 1.849886) (size 0.199898 0.599949) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.1 -0.249936) (xy 0.1 0.350064) (xy -0.1 0.350064) (xy -0.1 -0.049962)) (width 0))
+    ))
+  (pad 25 smd custom (at -1.850025 -1.400305 270) (size 0.199898 0.599949) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.250064 0.100025) (xy -0.349936 0.100025) (xy -0.349936 -0.099975) (xy 0.050089 -0.099975)) (width 0))
+    ))
+  (fp_text user REF** (at 0 6.150013) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model Z:\footprint/lcsc_embedded_processors_controllers/packages3d/FU6831N.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
